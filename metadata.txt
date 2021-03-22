@@ -1,0 +1,47 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Rename Field
+qgisMinimumVersion=3.0
+description=This plugin let user changes the field's name from a vector layer
+version=0.1
+author=Salomón Einstein, Universidad Distrital Francisco José de Caldas
+email=seramirezf@correo.udistrital.edu.co
+
+about=First, the user select a vector layer from vector layers list. Next, he select a field from selected layer. Then, he enter field's new name. Finally, he must push rename button.<br><br><h3>Citation</h3>If you feel like <b>Rename Field</b> has made a contribution to your research, please consider citing it using:<br>Ramirez, S. (2021). Rename Field. QGIS 3 plugin version 0.1.<br>
+ 
+
+tracker=https://github.com/salomoneinstein/RenameField/issues
+repository=https://github.com/salomoneinstein/RenameField.git
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=no
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=rename, name, field
+
+homepage=https://github.com/salomoneinstein/RenameField
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False

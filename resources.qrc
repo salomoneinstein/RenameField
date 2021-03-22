@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/rename_field" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>
